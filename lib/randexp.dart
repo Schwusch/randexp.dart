@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:discontinuous_range/discontinuous_range.dart';
 import 'package:ret/ret.dart';
+export 'package:discontinuous_range/discontinuous_range.dart';
 
 class RandExp {
   final RegExp _regexp;
