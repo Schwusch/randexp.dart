@@ -110,7 +110,7 @@ class RandExp {
         }
 
         if (tkn is Group && tkn.remember) {
-          groups[groupNumber] = str;
+          groups[_groupNumbers[tkn]!] = str;
         }
 
         return str;
